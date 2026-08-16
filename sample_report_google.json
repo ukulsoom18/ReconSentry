@@ -1,0 +1,252 @@
+{
+    "tool": "ReconSentry",
+    "version": "1.0.0",
+    "author": "Umme Kulsoom",
+    "target": "google.com",
+    "scan_time": "2026-08-16T02:24:12.326763",
+    "results": {
+        "whois": {},
+        "dns": {
+            "A": [
+                "172.253.147.101",
+                "172.253.147.113",
+                "172.253.147.102",
+                "172.253.147.100",
+                "172.253.147.138",
+                "172.253.147.139"
+            ],
+            "AAAA": [
+                "2607:f8b0:400c:c08::8a",
+                "2607:f8b0:400c:c08::8b",
+                "2607:f8b0:400c:c08::64",
+                "2607:f8b0:400c:c08::65"
+            ],
+            "MX": [
+                "10 smtp.google.com."
+            ],
+            "NS": [
+                "ns4.google.com.",
+                "ns1.google.com.",
+                "ns2.google.com.",
+                "ns3.google.com."
+            ],
+            "TXT": [],
+            "CNAME": [],
+            "SOA": [
+                "ns1.google.com. dns-admin.google.com. 965142848 900 900 1800 60"
+            ]
+        },
+        "geolocation": {
+            "reverse_dns": "yuchstz-in-f139.1e100.net."
+        },
+        "resolved_ip": "172.253.147.139",
+        "subdomains": {
+            "crt_sh": [],
+            "brute_force": [
+                {
+                    "subdomain": "www.google.com",
+                    "ips": [
+                        "142.251.157.119",
+                        "142.251.156.119",
+                        "142.251.152.119",
+                        "142.251.153.119",
+                        "142.251.154.119",
+                        "142.251.150.119",
+                        "142.251.155.119",
+                        "142.251.151.119"
+                    ]
+                },
+                {
+                    "subdomain": "smtp.google.com",
+                    "ips": [
+                        "173.194.217.27",
+                        "108.177.12.26",
+                        "173.194.44.27",
+                        "172.253.147.27",
+                        "108.177.11.26"
+                    ]
+                },
+                {
+                    "subdomain": "mail.google.com",
+                    "ips": [
+                        "172.253.147.18",
+                        "172.253.147.83",
+                        "172.253.147.19",
+                        "172.253.147.17"
+                    ]
+                },
+                {
+                    "subdomain": "admin.google.com",
+                    "ips": [
+                        "173.194.216.113",
+                        "173.194.216.138",
+                        "173.194.216.101",
+                        "173.194.216.139",
+                        "173.194.216.100",
+                        "173.194.216.102"
+                    ]
+                },
+                {
+                    "subdomain": "shop.google.com",
+                    "ips": [
+                        "74.125.139.92"
+                    ]
+                },
+                {
+                    "subdomain": "mobile.google.com",
+                    "ips": [
+                        "142.251.107.193"
+                    ]
+                },
+                {
+                    "subdomain": "store.google.com",
+                    "ips": [
+                        "172.217.204.102",
+                        "172.217.204.138",
+                        "172.217.204.139",
+                        "172.217.204.101",
+                        "172.217.204.100",
+                        "172.217.204.113"
+                    ]
+                },
+                {
+                    "subdomain": "api.google.com",
+                    "ips": [
+                        "74.125.26.104",
+                        "74.125.26.147",
+                        "74.125.26.103",
+                        "74.125.26.105",
+                        "74.125.26.99",
+                        "74.125.26.106"
+                    ]
+                },
+                {
+                    "subdomain": "images.google.com",
+                    "ips": [
+                        "74.125.26.100",
+                        "74.125.26.102",
+                        "74.125.26.101",
+                        "74.125.26.113",
+                        "74.125.26.139",
+                        "74.125.26.138"
+                    ]
+                },
+                {
+                    "subdomain": "blog.google.com",
+                    "ips": [
+                        "173.194.217.191"
+                    ]
+                },
+                {
+                    "subdomain": "ns1.google.com",
+                    "ips": [
+                        "216.239.32.10"
+                    ]
+                },
+                {
+                    "subdomain": "vpn.google.com",
+                    "ips": [
+                        "64.9.224.68",
+                        "64.9.224.70",
+                        "64.9.224.69"
+                    ]
+                },
+                {
+                    "subdomain": "docs.google.com",
+                    "ips": [
+                        "74.125.139.100",
+                        "74.125.139.138",
+                        "74.125.139.113",
+                        "74.125.139.139",
+                        "74.125.139.101",
+                        "74.125.139.102"
+                    ]
+                },
+                {
+                    "subdomain": "support.google.com",
+                    "ips": [
+                        "74.125.26.113",
+                        "74.125.26.138",
+                        "74.125.26.100",
+                        "74.125.26.139",
+                        "74.125.26.101",
+                        "74.125.26.102"
+                    ]
+                },
+                {
+                    "subdomain": "help.google.com",
+                    "ips": [
+                        "173.194.217.100",
+                        "173.194.217.138",
+                        "173.194.217.101",
+                        "173.194.217.102",
+                        "173.194.217.139",
+                        "173.194.217.113"
+                    ]
+                },
+                {
+                    "subdomain": "ns2.google.com",
+                    "ips": [
+                        "216.239.34.10"
+                    ]
+                },
+                {
+                    "subdomain": "cloud.google.com",
+                    "ips": [
+                        "74.125.141.101",
+                        "74.125.141.113",
+                        "74.125.141.100",
+                        "74.125.141.139",
+                        "74.125.141.138",
+                        "74.125.141.102"
+                    ]
+                }
+            ],
+            "total_unique": 17
+        },
+        "port_scan": {
+            "target_ip": "172.253.147.139",
+            "ports_scanned": 21,
+            "open_ports": [
+                {
+                    "port": 80,
+                    "service": "HTTP",
+                    "state": "open",
+                    "banner": "HTTP/1.1 426 Upgrade Required"
+                },
+                {
+                    "port": 443,
+                    "service": "HTTPS",
+                    "state": "open",
+                    "banner": "HTTP/1.1 426 Upgrade Required"
+                }
+            ],
+            "open_count": 2
+        },
+        "email_harvest": {
+            "domain": "google.com",
+            "emails": [
+                "abuse@google.com",
+                "admin@google.com",
+                "contact@google.com",
+                "help@google.com",
+                "info@google.com",
+                "mail@google.com",
+                "noc@google.com",
+                "security@google.com",
+                "support@google.com",
+                "webmaster@google.com"
+            ],
+            "count": 10,
+            "sources": [
+                "Hunter.io (skipped)",
+                "WHOIS",
+                "Pattern Generation"
+            ]
+        },
+        "shodan": {
+            "error": "Expecting value: line 1 column 1 (char 0)",
+            "ip": "172.253.147.139"
+        }
+    }
+}
